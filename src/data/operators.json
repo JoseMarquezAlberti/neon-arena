@@ -1,0 +1,14 @@
+[
+  { "id": "ghostwire",     "name": "Ghostwire",     "icon": "👻",  "color": "#aa66ff", "desc": "Recon has no time limit. Chips cost 1g less (min 0).",                                     "flavor": "Information is the ultimate weapon." },
+  { "id": "overclocker",   "name": "Overclocker",   "icon": "⚡",  "color": "#ff6600", "desc": "Tier-ups cost 3 less. Start at T2. Units have -2 HP (min 1).",                                     "flavor": "Speed kills—sometimes you." },
+  { "id": "echo_protocol", "name": "Echo Protocol",  "icon": "🔁",  "color": "#00f0ff", "desc": "First unit bought each round gets +1/+1. 4th buy each round is free.",                     "flavor": "First signal is always the strongest." },
+  { "id": "phantom_root",  "name": "Phantom Root",   "icon": "💀",  "color": "#ff00ff", "desc": "Start with -10 HP, +10 gold. +1 bonus gold per round.",                                    "flavor": "Pain is just another currency." },
+  { "id": "neon_broker",   "name": "Neon Broker",    "icon": "💰",  "color": "#ffcc00", "desc": "Shop has +2 extra slots. Rerolls are FREE.",                                                "flavor": "More product. More possibilities." },
+  { "id": "killswitch",    "name": "Killswitch",     "icon": "☠️",  "color": "#ff0066", "desc": "All Deadswitch effects trigger twice. Quest rewards +50% gold bonus.",                      "flavor": "Die once, strike twice." },
+  { "id": "data_miner",    "name": "Data Miner",     "icon": "⛏️",  "color": "#ffcc00", "desc": "After combat, discover 1 unit from your current tier. Free to take.",                       "flavor": "The network provides for those who listen." },
+  { "id": "ironclad",      "name": "Ironclad",       "icon": "🛡️",  "color": "#88bbff", "desc": "All units start combat with Shield = 15% of their max HP.",                                "flavor": "Every soldier gets a second skin." },
+  { "id": "chrome_dealer", "name": "Chrome Dealer",  "icon": "🛒",  "color": "#66ff00", "desc": "Hold 2 extra Breaches. Breach choices always include Glitch Market.",                       "flavor": "Premium goods for premium players." },
+  { "id": "surge",         "name": "Surge",          "icon": "🔥",  "color": "#ff4444", "desc": "On win, strongest unit gets +2/+2 permanently. Win streak bonus doubled.",                  "flavor": "Momentum is a weapon." },
+  { "id": "hard_reset",    "name": "Hard Reset",     "icon": "🔄",  "color": "#ff8800", "desc": "Selling returns +1g. Bench +2 slots. Selling triggers free shop reroll.",                    "flavor": "Destruction is creation's down payment." },
+  { "id": "glitch_matrix", "name": "Glitch Matrix",  "icon": "🎲",  "color": "#ff00ff", "desc": "When applying a Protocol Chip, 40% chance to refund its full cost.",                        "flavor": "Reality has a few inconsistencies." }
+]

@@ -1,0 +1,10 @@
+[
+  { "id": "overclock",  "name": "Overclock Chip",  "desc": "+3 ATK",                "effect": { "atk": 3 } },
+  { "id": "nanoarmor",  "name": "Nano Armor",      "desc": "+5 HP",                 "effect": { "hp": 5 } },
+  { "id": "vamp",       "name": "Vamp Module",     "desc": "Heal 2 on kill",        "effect": { "lifesteal": 2 } },
+  { "id": "thorns",     "name": "Thorn Plating",   "desc": "Deal 2 to attacker",    "effect": { "thorns": 2 } },
+  { "id": "swift",      "name": "Swift Core",      "desc": "Attack first",          "effect": { "swift": true } },
+  { "id": "shield",     "name": "Shield Gen",      "desc": "+4 Shield",             "effect": { "shield": 4 } },
+  { "id": "amp",        "name": "Amp Coil",        "desc": "+2 ATK, +2 HP",         "effect": { "atk": 2, "hp": 2 } },
+  { "id": "recursive",  "name": "Recursive Loop",  "desc": "Deadswitch triggers twice", "effect": { "doubleDeadswitch": true } }
+]

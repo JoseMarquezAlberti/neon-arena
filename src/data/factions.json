@@ -1,0 +1,11 @@
+{
+  "SYNTH": {"name":"Synth","color":"#00f0ff","icon":"⚙️","img":"/art/factions/faction_synth.png","desc":"(2) +2 ATK per attack (4) +2/+2 per attack, +4 Shield, +10 turns (6) +3/+3 per attack, +6 Shield, +20 turns"},
+  "HACKER": {"name":"Hacker","color":"#ff00ff","icon":"🔓","img":"/art/factions/faction_hacker.png","desc":"(2) Steal 2 ATK/hacker, +3 HP (4) Steal 2, silence ×2, +4 HP (6) Steal 3, silence ×3, 2× dmg silenced, +5 HP"},
+  "AUGMENTED": {"name":"Augmented","color":"#ff6600","icon":"🦾","img":"/art/factions/faction_augmented.png","desc":"(2) Carry +2/+2, team +1/+1 (4) Carry +3/+3, Cleave, team +1 (6) Carry +5/+5, 20% DR, Regen, Cleave, team +2"},
+  "DRONE": {"name":"Drone","color":"#66ff00","icon":"🛸","img":"/art/factions/faction_drone.png","desc":"(2) 2× attacks, +1/+2 (4) 3× attacks, +1/+3, death buff (6) 3× attacks, +4/+5, death buff"},
+  "PSIONIC": {"name":"Psionic","color":"#aa66ff","icon":"🧠","img":"/art/factions/faction_psionic.png","desc":"(2) All allies +2 Shield (4) +3 Shield, stun on break (6) +3 Shield, regen"},
+  "VIRUS": {"name":"Virus","color":"#cc0044","icon":"🦠","img":"/art/factions/faction_virus.png","desc":"(2) Deaths deal 1 bleed, +2 HP (4) +1 ATK on death, +2 HP (6) 2 bleed, +3 HP, perm debuff"},
+  "PHANTOM": {"name":"Phantom","color":"#44ddbb","icon":"👁️","img":"/art/factions/faction_phantom.png","desc":"(2) 33% dodge, +5 dmg, +2 ATK/dodge, +3 HP (4) 42% dodge, +6 dmg, +3 ATK/dodge, +3 HP, assassinate (6) 50% dodge, +8 dmg, +4 ATK/dodge, +4 HP, stealth"},
+  "CONSTRUCT": {"name":"Construct","color":"#bb8844","icon":"🏛️","img":"/art/factions/faction_construct.png","desc":"(2) +2/round, +2 HP (4) +2/round, +3 HP, Hardshell (6) +3/round, +5 HP, Hardshell, survive lethal"},
+  "NEUTRAL": {"name":"Neutral","color":"#999999","icon":"⚪","img":"/art/factions/faction_neutral.png","desc":"Neutrals count as ANY faction for thresholds. 3+ Neutrals: +1 Protocol Chip per round"}
+}

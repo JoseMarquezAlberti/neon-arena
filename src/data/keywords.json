@@ -1,0 +1,17 @@
+{
+  "firewall":   { "name": "Firewall",   "icon": "🛡️", "img": "/art/keywords/kw_firewall.png",   "desc": "Must be attacked first" },
+  "deadswitch": { "name": "Deadswitch", "icon": "💀",  "img": "/art/keywords/kw_deadswitch.png", "desc": "Effect triggers on death" },
+  "bootseq":    { "name": "Boot Seq",   "icon": "🔄",  "img": "/art/keywords/kw_bootseq.png",    "desc": "Effect triggers when bought" },
+  "initprot":   { "name": "Init Proto",  "icon": "⚡",  "img": "/art/keywords/kw_initprot.png",   "desc": "Triggers at start of combat" },
+  "hardshell":  { "name": "Hardshell",  "icon": "🛡",  "img": "/art/keywords/kw_hardshell.png",  "desc": "Blocks the first hit completely" },
+  "malware":    { "name": "Malware",    "icon": "☠️",  "img": "/art/keywords/kw_malware.png",    "desc": "Instantly kills any unit it damages" },
+  "link":       { "name": "Link",       "icon": "🔗",  "img": "/art/keywords/kw_link.png",       "desc": "Buffs adjacent allies" },
+  "execute":    { "name": "Execute",    "icon": "⚡",  "img": "/art/keywords/kw_execute.png",    "desc": "Triggers effect on kill" },
+  "cleave":     { "name": "Cleave",     "icon": "🪓",  "img": "/art/keywords/kw_cleave.png",     "desc": "Also damages units adjacent to target" },
+  "sniper":     { "name": "Sniper",     "icon": "🎯",  "img": "/art/keywords/kw_sniper.png",     "desc": "Targets the lowest HP enemy" },
+  "splash":     { "name": "Splash",     "icon": "💥",  "img": "/art/keywords/kw_splash.png",     "desc": "Deals 50% ATK to all other enemies" },
+  "stealth":    { "name": "Stealth",    "icon": "👾",  "img": "/art/keywords/kw_stealth.png",    "desc": "Can't be targeted for the first 2 attacks" },
+  "regen":      { "name": "Regen",      "icon": "💚",  "img": "/art/keywords/kw_regen.png",      "desc": "Heals 2 HP after each attack" },
+  "adapt":      { "name": "Adapt",      "icon": "🔀",  "img": "/art/keywords/kw_adapt.png",      "desc": "Gains a random keyword at combat start" },
+  "taunt":      { "name": "Aggro Lock", "icon": "🎯",  "img": "/art/keywords/kw_taunt.png",      "desc": "Forces enemies to target this unit" }
+}

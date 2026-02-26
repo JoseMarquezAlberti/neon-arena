@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Quantum Apex",
+    "faction": "SYNTH",
+    "tier": 7,
+    "atk": 12,
+    "hp": 12,
+    "emoji": "⚡",
+    "keywords": [
+      "link",
+      "hardshell"
+    ],
+    "kwData": {
+      "link": "+3 ATK to all Synths"
+    },
+    "t7rule": "synthTripleScale",
+    "role": "Striker"
+  },
+  {
+    "name": "Zero Point",
+    "faction": "HACKER",
+    "tier": 7,
+    "atk": 8,
+    "hp": 8,
+    "emoji": "💀",
+    "keywords": [
+      "malware",
+      "stealth"
+    ],
+    "kwData": {},
+    "t7rule": "silenceAll",
+    "role": "Infiltrator"
+  },
+  {
+    "name": "Patient Zero",
+    "faction": "VIRUS",
+    "tier": 7,
+    "atk": 6,
+    "hp": 20,
+    "emoji": "☠",
+    "keywords": [
+      "deadswitch",
+      "splash"
+    ],
+    "kwData": {
+      "deadswitch": "Enemy player takes 10 direct damage",
+      "splash": "100% ATK to all"
+    },
+    "t7rule": "virusDoubleBleed",
+    "role": "Infiltrator"
+  },
+  {
+    "name": "Chrono Weaver",
+    "faction": "PHANTOM",
+    "tier": 7,
+    "atk": 5,
+    "hp": 15,
+    "emoji": "🕐",
+    "keywords": [
+      "stealth",
+      "sniper"
+    ],
+    "kwData": {},
+    "t7rule": "combatRunsTwice",
+    "role": "Sentinel"
+  },
+  {
+    "name": "War Engine",
+    "faction": "AUGMENTED",
+    "tier": 7,
+    "atk": 15,
+    "hp": 15,
+    "emoji": "⚔",
+    "keywords": [
+      "cleave",
+      "taunt"
+    ],
+    "kwData": {},
+    "t7rule": "tripleSlotBoss",
+    "role": "Striker"
+  },
+  {
+    "name": "Hivemind",
+    "faction": "DRONE",
+    "tier": 7,
+    "atk": 3,
+    "hp": 30,
+    "emoji": "🌐",
+    "keywords": [
+      "deadswitch",
+      "initprot"
+    ],
+    "kwData": {
+      "deadswitch": "Summon 3x 3/3 Drones",
+      "initprot": "All Drones deal +1 bonus"
+    },
+    "t7rule": "droneHiveHP",
+    "role": "Architect"
+  },
+  {
+    "name": "Ascendant",
+    "faction": "PSIONIC",
+    "tier": 7,
+    "atk": 10,
+    "hp": 10,
+    "emoji": "🔮",
+    "keywords": [
+      "initprot",
+      "link"
+    ],
+    "kwData": {
+      "initprot": "+8 Shield to all allies",
+      "link": "+2 Shield to neighbors"
+    },
+    "t7rule": "tripleShields",
+    "role": "Architect"
+  },
+  {
+    "name": "Colossus",
+    "faction": "CONSTRUCT",
+    "tier": 7,
+    "atk": 8,
+    "hp": 25,
+    "emoji": "🏰",
+    "keywords": [
+      "firewall",
+      "hardshell"
+    ],
+    "kwData": {},
+    "t7rule": "immuneToAll",
+    "role": "Vanguard"
+  }
+]

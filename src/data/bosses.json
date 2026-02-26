@@ -1,0 +1,6 @@
+{
+  "5":  { "name": "FIREWALL PRIME", "desc": "All enemies have Hardshell",            "unitTierMax": 2, "unitCount": 5, "bonusHp": 3,  "keywords": ["hardshell"], "goldenChance": 0 },
+  "10": { "name": "THE SWARM",      "desc": "7 Drones that attack 3x each",          "factionFilter": "DRONE", "unitTierMax": 3, "unitCount": 7, "bonusAtk": 2, "bonusHp": 4, "goldenChance": 0 },
+  "15": { "name": "NULL POINTER",   "desc": "Every enemy has Malware",               "unitTierMax": 4, "unitCount": 6, "bonusAtk": 3, "bonusHp": 5, "keywords": ["malware"], "goldenChance": 0.2 },
+  "20": { "name": "THE ARCHITECT",  "desc": "Copies your board with +5/+5",          "copyPlayerBoard": true, "bonusAtk": 5, "bonusHp": 5 }
+}

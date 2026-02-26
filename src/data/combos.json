@@ -1,0 +1,16 @@
+[
+  { "factions": ["SYNTH", "DRONE"],      "min": [2, 2], "name": "Overclock Swarm", "desc": "Drones +2 ATK",                "icon": "⚡🛸",  "effect": { "targetFaction": "DRONE", "atk": 2 } },
+  { "factions": ["HACKER", "PSIONIC"],   "min": [2, 2], "name": "Mind Hack",       "desc": "Strongest enemy -3 ATK",       "icon": "🔓🧠",  "effect": { "debuffStrongest": 3 } },
+  { "factions": ["AUGMENTED", "SYNTH"],  "min": [2, 2], "name": "Chrome Protocol", "desc": "All allies +3 HP",             "icon": "🦾⚙️",  "effect": { "allHp": 3 } },
+  { "factions": ["DRONE", "HACKER"],     "min": [2, 2], "name": "Botnet",          "desc": "First Drone hit = Malware",    "icon": "🛸🔓",  "effect": { "droneFirstMalware": true } },
+  { "factions": ["AUGMENTED", "PSIONIC"],"min": [2, 2], "name": "Neural Forge",    "desc": "All allies +2 ATK",            "icon": "🦾🧠",  "effect": { "allAtk": 2 } },
+  { "factions": ["SYNTH", "PSIONIC"],    "min": [2, 2], "name": "Quantum Link",    "desc": "All shields doubled",          "icon": "⚙️🧠",  "effect": { "doubleShields": true } },
+  { "factions": ["VIRUS", "HACKER"],     "min": [2, 2], "name": "Bioweapon",       "desc": "Malware also -3 ATK",          "icon": "🦠🔓",  "effect": { "malwareDebuff": 3 } },
+  { "factions": ["PHANTOM", "AUGMENTED"],"min": [2, 2], "name": "Phase Strike",    "desc": "Augmented +15% dodge",         "icon": "👁️🦾",  "effect": { "factionDodge": { "faction": "AUGMENTED", "chance": 0.15 } } },
+  { "factions": ["CONSTRUCT", "SYNTH"],  "min": [2, 2], "name": "Recursive Build", "desc": "Construct scaling +1 bonus",   "icon": "🏛️⚙️",  "effect": { "doubleConstruct": true } },
+  { "factions": ["PHANTOM", "PSIONIC"],  "min": [2, 2], "name": "Ghost Network",   "desc": "Shields also grant 10% dodge", "icon": "👁️🧠",  "effect": { "shieldDodge": true } },
+  { "factions": ["VIRUS", "DRONE"],      "min": [2, 2], "name": "Swarm Protocol",  "desc": "Dead Virus spawn 1/1 Drone",   "icon": "🦠🛸",  "effect": { "virusSpawnDrone": true } },
+  { "factions": ["CONSTRUCT", "AUGMENTED"],"min":[2, 2],"name": "Siege Engine",    "desc": "Constructs gain Cleave",       "icon": "🏛️🦾",  "effect": { "constructCleave": true } },
+  { "factions": ["VIRUS", "PSIONIC"],    "min": [2, 2], "name": "Digital Plague",   "desc": "Virus overflow ignores shields","icon": "🦠🧠", "effect": { "overflowIgnoreShield": true } },
+  { "factions": ["PHANTOM", "DRONE"],    "min": [2, 2], "name": "Shadow Swarm",    "desc": "Drones start stealthed (1)",   "icon": "👁️🛸",  "effect": { "droneStealth": true } }
+]

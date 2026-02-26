@@ -1,0 +1,1177 @@
+{
+  "Proxy Node": {
+    "flags": {
+      "copyAdjacentBuffs": true,
+      "shieldOnCombatStart": 3
+    },
+    "innate": "Whenever an adjacent ally is buffed, Proxy Node gains the same buff. Starts with 3 shield"
+  },
+  "Assembly Unit": {
+    "deathEffect": {
+      "kwData": "Split into two units with half stats"
+    },
+    "flags": {
+      "deathSplit": true,
+      "splitRetainBuffs": true
+    },
+    "innate": "On death: splits into two units with 60% stats (inherits buffs)"
+  },
+  "Turret Node": {
+    "flags": {
+      "targetWeakest": false,
+      "lockOnDmg": 3
+    },
+    "innate": "Lock-On — consecutive hits on same target deal +3 cumulative bonus damage"
+  },
+  "Power Grid": {
+    "flags": {
+      "innateStart": "Overclock: highest-ATK Synth gains +50% ATK"
+    },
+    "innate": "Overclock — at combat start, highest-ATK Synth gains +50% ATK (no penalty)"
+  },
+  "War Machine": {
+    "flags": {
+      "firstAtkMultiplier": 3,
+      "chainTripleOnKill": true
+    }
+  },
+  "Compile Core": {
+    "flags": {
+      "copyRandomAllyInnate": true,
+      "innateStart": "Compile: copies 1 random innate from any ally",
+      "selfHealPerTurn": 1
+    },
+    "innate": "Compile — copies 1 random ally innate at combat start. Regenerates 1 HP per turn"
+  },
+  "Overclock Drone": {
+    "flags": {
+      "tripleAtkSpeed": true,
+      "selfDmgPerAttack": 1,
+      "explodeOnSelfKill": true
+    }
+  },
+  "Foundry Arm": {
+    "flags": {
+      "spawnTokenOnCombat": true,
+      "tokenStats": [
+        2,
+        2
+      ]
+    },
+    "innate": "Fabricate — at combat start, spawns a 2/2 Construct Token (Synth+Construct)"
+  },
+  "Omega Frame": {
+    "flags": {
+      "surviveLethal": true,
+      "onSurviveHealHalf": true,
+      "onSurviveDoubleAtk": true
+    }
+  },
+  "Mainframe": {
+    "flags": {
+      "doubleSynthInnate": true
+    }
+  },
+  "Arc Welder": {
+    "autoKeywords": [
+      {
+        "kw": "cleave"
+      }
+    ],
+    "flags": {
+      "arcChain": true,
+      "arcBounce1": 0.75,
+      "arcBounce2": 0.5
+    }
+  },
+  "Singularity": {
+    "flags": {
+      "innateStart": "Merge Protocol: absorb 2 weakest Synth allies, gain their ATK+HP",
+      "mergeWeakestAllies": 2
+    }
+  },
+  "Quantum Core": {
+    "flags": {
+      "superposition": true,
+      "splitDamage": 0.5
+    }
+  },
+  "Nexus Prime": {
+    "flags": {
+      "doubleSynthLinks": true
+    }
+  },
+  "God Compiler": {
+    "flags": {
+      "doubleSynthInnate": true,
+      "synthInnateTriple": true,
+      "innateStart": "Infinite Loop: all Synth innates trigger 3x at combat start"
+    }
+  },
+  "Assembly Matrix": {
+    "flags": {
+      "collectDeadAllyInnates": true
+    }
+  },
+  "Net Runner": {
+    "flags": {
+      "onHitStealAtk": 1,
+      "redistributeStolenAtk": true
+    }
+  },
+  "Data Leech": {
+    "flags": {
+      "lifesteal": 0.5
+    }
+  },
+  "Ping Flood": {
+    "flags": {
+      "innateStart": "Jam: fastest enemy attack speed reduced 50%",
+      "slowFastestEnemy": 0.5
+    }
+  },
+  "Access Point": {
+    "flags": {}
+  },
+  "Crypto Breaker": {
+    "flags": {
+      "ignoreShield": true,
+      "trueDamage": true
+    }
+  },
+  "Packet Sniffer": {
+    "flags": {
+      "targetMostKw": true,
+      "bonusDmg": 3
+    }
+  },
+  "Trojan Gate": {
+    "deathEffect": {
+      "kwData": "Killer's next 3 attacks hit own allies"
+    },
+    "flags": {
+      "deathTrojan": 3
+    }
+  },
+  "Ghost Protocol": {
+    "flags": {
+      "stealthLeft": 2,
+      "applyAllOnHitFromStealth": true
+    },
+    "autoKeywords": [
+      {
+        "kw": "malware"
+      }
+    ]
+  },
+  "Exploit Kit": {
+    "flags": {
+      "execDmgMultiplier": 3,
+      "bonusDmgPerDebuff": 3
+    }
+  },
+  "DDoS Node": {
+    "flags": {
+      "enemySlowdown": 0.3,
+      "slowdownPerHacker": 0.1
+    }
+  },
+  "Zero Day": {
+    "flags": {
+      "onHitRemoveKw": 99,
+      "onHitDisableInnate": true
+    }
+  },
+  "Black Hat": {
+    "flags": {
+      "innateStart": "Rootkit: first enemy attacker hits own ally instead",
+      "redirectFirstAttacker": true
+    }
+  },
+  "Ransomware": {
+    "flags": {
+      "onKillGoldPerTier": 1,
+      "onKillVictimHpToGold": true
+    }
+  },
+  "Root Access": {
+    "flags": {
+      "innateStart": "Hijack: steal strongest enemy innate",
+      "stealStrongestInnate": true
+    }
+  },
+  "Void Reaper": {
+    "flags": {
+      "executeBelow": 0.33,
+      "executeThresholdGrowth": 0.05,
+      "targetWeakest": true
+    },
+    "autoKeywords": [
+      {
+        "kw": "execute"
+      }
+    ]
+  },
+  "Shadow Broker": {
+    "flags": {
+      "innateStart": "Information Warfare: swap ATK/HP of 2 strongest enemies",
+      "swapEnemyAtkHp": 2
+    }
+  },
+  "Zero Day Prime": {
+    "flags": {
+      "innateStart": "Total Blackout: disable all enemy innates+keywords for first 5 attacks",
+      "globalSilenceDuration": 5,
+      "silencePerHacker": 2
+    }
+  },
+  "Root Shell": {
+    "flags": {
+      "interceptEnemyBuffs": true,
+      "stealEnemyKw": true
+    }
+  },
+  "Street Samurai": {
+    "flags": {
+      "permanentKillGain": false,
+      "survivalAtkGain": 2
+    }
+  },
+  "Reflex Agent": {
+    "flags": {
+      "counterAttackOnDodge": true
+    }
+  },
+  "Knuckle Duster": {
+    "flags": {
+      "critEvery3": 3
+    }
+  },
+  "Iron Hide": {
+    "flags": {
+      "flatDmgReduce": 1,
+      "gainHpOnReduce": 1
+    }
+  },
+  "Chrome Fist": {
+    "flags": {
+      "shieldDmgBonus": 999,
+      "destroyShield": true
+    }
+  },
+  "Nano Medic": {
+    "flags": {
+      "innateStart": "Combat Stim: lowest-HP ally heals 2 after each attack they make",
+      "stimLowestAlly": 2
+    }
+  },
+  "Blade Runner": {
+    "flags": {
+      "onKillExtraAttack": true,
+      "overkillCarry": true
+    }
+  },
+  "Steel Spine": {
+    "flags": {
+      "surviveLethal": true,
+      "surviveLethalAtkBonus": 5
+    }
+  },
+  "Titan Arm": {
+    "flags": {
+      "onDamagedAtkGain": 1
+    }
+  },
+  "Exo Frame": {
+    "flags": {
+      "bodyguard": true,
+      "bodyguardCharges": 3
+    }
+  },
+  "Pain Engine": {
+    "flags": {
+      "bonusDmgMissingHp": true
+    }
+  },
+  "Riot Shield": {
+    "flags": {
+      "aoeReduction": 0.3,
+      "aoeReductionTransfer": true
+    }
+  },
+  "Berserker X": {
+    "flags": {
+      "berserk": true,
+      "berserkDoubleAt": 0.5,
+      "berserkTripleAt": 0.25
+    }
+  },
+  "Warlord": {
+    "flags": {}
+  },
+  "Gore Machine": {
+    "flags": {
+      "onKillExtraAttack": true,
+      "onKillAtkGain": 2,
+      "permanentKillGain": false
+    }
+  },
+  "Apex Predator": {
+    "flags": {
+      "targetWeakest": true,
+      "overkillSplash": true
+    }
+  },
+  "War Titan": {
+    "flags": {
+      "immuneToEffects": true,
+      "immuneTurns": 999
+    }
+  },
+  "Juggernaut": {
+    "flags": {
+      "surviveLethal": true,
+      "momentumDmg": true,
+      "cantBeOneShot": true
+    }
+  },
+  "Omega Predator": {
+    "flags": {
+      "onKillGainVictimAtk": true,
+      "onKillHealHalf": true
+    },
+    "innate": "Apex Carnage — on kill, heals to half HP AND permanently gains the victim base ATK"
+  },
+  "The Colosseum": {
+    "autoKeywords": [
+      {
+        "kw": "taunt"
+      }
+    ],
+    "flags": {
+      "forceAllAttackThis": true
+    }
+  },
+  "Micro Drone": {
+    "deathEffect": {
+      "kwData": "Spawn two 1/1 Micro Drones (recursive once)"
+    },
+    "flags": {
+      "deathSpawnCount": 2,
+      "recursiveSplit": 1
+    }
+  },
+  "Scout Fly": {
+    "flags": {
+      "swift": true,
+      "onKillPermGain": true,
+      "permanentKillGain": true,
+      "onKillAtkGain": 1,
+      "onKillHpGain": 1
+    }
+  },
+  "Zap Bug": {
+    "deathEffect": {
+      "kwData": "Paralyze killer for 1 attack"
+    },
+    "flags": {
+      "deathStunKiller": 1
+    }
+  },
+  "Relay Drone": {
+    "flags": {
+      "boostNearbyDroneInnate": 1
+    }
+  },
+  "Buzz Swarm": {
+    "deathEffect": {
+      "kwData": "Split into 2 copies with half stats"
+    },
+    "flags": {
+      "deathSplit": true,
+      "inheritBuffs": true
+    }
+  },
+  "Pulse Drone": {
+    "flags": {
+      "innateStart": "Target Designator: mark enemy, all Drones deal +2 to marked",
+      "markTarget": true,
+      "markBonusDmg": 2
+    }
+  },
+  "Kamikaze Bot": {
+    "deathEffect": {
+      "kwData": "Deal current ATK damage to killer"
+    },
+    "flags": {
+      "deathDmgToKiller": true
+    }
+  },
+  "Repair Drone": {
+    "flags": {
+      "healDronesPerTurn": 2,
+      "healOnDroneDeath": 2
+    }
+  },
+  "Hive Mind": {
+    "flags": {
+      "droneShareDmg": true
+    }
+  },
+  "Strike Wing": {
+    "flags": {
+      "targetBackline": true,
+      "advanceOnKill": true
+    }
+  },
+  "Cluster Bomb": {
+    "deathEffect": {
+      "kwData": "Deal 2 damage to all enemies; chain detonation"
+    },
+    "flags": {
+      "deathAoeDmg": 2,
+      "chainDetonation": true
+    }
+  },
+  "Shield Drone": {
+    "flags": {
+      "innateStart": "Ablative Plating: shield all allies equal to Drone count",
+      "shieldPerDroneCount": true
+    }
+  },
+  "Mothership": {
+    "flags": {
+      "spawnDroneEveryN": 4,
+      "spawnedDroneInheritInnate": true
+    }
+  },
+  "Swarm Lord": {
+    "flags": {
+      "droneDeathAtkStack": 1
+    }
+  },
+  "Predator Drone": {
+    "flags": {
+      "stealthLeft": 3,
+      "droneStealth": true,
+      "trueDamageWhileStealthed": true
+    }
+  },
+  "Legion Swarm": {
+    "flags": {
+      "absorbDeadDroneAtk": true
+    }
+  },
+  "Omega Swarm": {
+    "flags": {
+      "innateStart": "Critical Mass: if 5+ Drones, all Drones gain +100% ATK",
+      "criticalMassThreshold": 5,
+      "criticalMassBonus": 1
+    }
+  },
+  "Hive Queen": {
+    "flags": {
+      "reviveDeadDrones": true,
+      "reviveDelay": 2,
+      "reviveMaxPerUnit": 1
+    }
+  },
+  "Swarm Singularity": {
+    "deathEffect": {
+      "kwData": "Consume all Drones, deal combined ATK to all enemies"
+    },
+    "flags": {
+      "deathConsumeAllDrones": true
+    }
+  },
+  "The Motherbrain": {
+    "flags": {
+      "droneHpPool": true,
+      "shareAllDroneInnates": true
+    }
+  },
+  "Mind Spark": {
+    "flags": {
+      "innateStart": "Premonition: +3 Shield to weakest ally + survive first lethal",
+      "shieldWeakest": 3,
+      "protectWeakest": true
+    }
+  },
+  "Thought Wisp": {
+    "flags": {
+      "gainStatsPerCombatStartInnate": true
+    }
+  },
+  "Psi Probe": {
+    "flags": {
+      "innateStart": "Mind Spike: deal damage to random enemy equal to Psionic count",
+      "dmgPerFactionCount": "PSIONIC"
+    }
+  },
+  "Aura Sprite": {
+    "flags": {
+      "innateStart": "Resonance: gain +1 ATK per 5 shield HP on board",
+      "atkFromBoardShields": true
+    }
+  },
+  "Thought Weaver": {
+    "flags": {
+      "innateStart": "Psychic Barrier: shield entire board equal to this unit's ATK",
+      "shieldBoardFromAtk": true
+    }
+  },
+  "Dream Walker": {
+    "flags": {
+      "swapOnHit": true,
+      "nightmareCounter": true
+    }
+  },
+  "Mind Blade": {
+    "flags": {
+      "ignoreShield": true,
+      "drainShieldPerHit": 1
+    }
+  },
+  "Psychic Wall": {
+    "flags": {
+      "innateStart": "Telekinetic Barrier: 2 highest-ATK enemies lose 2 ATK",
+      "adjacentTank": true,
+      "debuffStrongestAtk": 2,
+      "debuffStrongestCount": 2
+    }
+  },
+  "Dream Eater": {
+    "flags": {
+      "onHitStealMaxHp": 2
+    }
+  },
+  "Mind Crusher": {
+    "flags": {
+      "onHitRemoveKw": 1,
+      "bonusDmgPerKwRemoved": 3
+    }
+  },
+  "Psi Storm": {
+    "flags": {
+      "aoeEvery3": true,
+      "aoeUsesAtk": true,
+      "aoeCostsHp": 1
+    }
+  },
+  "Aura Guard": {
+    "flags": {
+      "reflectDamageNearby": 0.3,
+      "reflectRange": 2
+    }
+  },
+  "Oracle Node": {
+    "flags": {
+      "innateStart": "Foresight: rearrange board into optimal attack order",
+      "autoOptimizeBoard": true
+    }
+  },
+  "Dominator": {
+    "flags": {
+      "innateStart": "Mind Control: take control of weakest enemy unit",
+      "mindControl": "weakest"
+    }
+  },
+  "Empathic Core": {
+    "flags": {
+      "healAllOnAllyDeath": 0,
+      "onAllyDeathGainStats": 2,
+      "onAllyDeathFireInnate": true
+    }
+  },
+  "Ascendant": {
+    "flags": {
+      "innateStart": "Transcendence: all allies gain Shield = TIER × 3",
+      "shieldByTier": 3,
+      "shieldsPersist": true
+    }
+  },
+  "Neural Titan": {
+    "flags": {
+      "innateStart": "Psionic Suppression: all enemies lose ATK = Psionic count",
+      "debuffAllEnemyAtk": true,
+      "debuffPerPsionic": 1,
+      "maxDebuff": 4
+    },
+    "innate": "Psionic Suppression — enemies lose ATK = Psionic count (max -4)"
+  },
+  "Mind Lord": {
+    "flags": {
+      "doublePsionicShields": true,
+      "doublePsionicValues": false,
+      "boostPsionicValues": 1.5
+    },
+    "innate": "Amplify — all Psionic innate abilities that deal damage or grant shield have their values increased by 50%"
+  },
+  "The Overmind": {
+    "flags": {
+      "innateStart": "Collective Consciousness: steal enemy with most keywords + double psionic combat-start",
+      "mindControl": "mostKeywords",
+      "doublePsionicStart": true
+    }
+  },
+  "Psi Nexus": {
+    "flags": {
+      "innateStart": "Reality Rewrite: swap strongest enemy stats with weakest ally",
+      "singleStatSwap": true
+    },
+    "innate": "Reality Rewrite — at combat start, swap your weakest ally ATK/HP with the strongest enemy ATK/HP"
+  },
+  "Microbe": {
+    "flags": {
+      "onHitInfect": true,
+      "infectionSpreadOnKill": 2,
+      "infectionSpreadDouble": true
+    }
+  },
+  "Spore Pod": {
+    "deathEffect": {
+      "kwData": "ALL enemies gain 1 Infection stack"
+    },
+    "flags": {
+      "deathInfectAll": 1
+    }
+  },
+  "Carrier": {
+    "flags": {
+      "onHitSpreadInfect": true,
+      "transferAllStacks": true
+    }
+  },
+  "Fever Spike": {
+    "flags": {
+      "innateStart": "Inflammatory Response: 1 damage to ALL units on BOTH sides, Virus heal instead",
+      "aoeAllDmg": 1,
+      "virusHealFromAoe": true
+    }
+  },
+  "Plague Rat": {
+    "flags": {
+      "onHitInfect": true,
+      "infectionStacks": 2,
+      "doubleStacksIfInfected": true
+    }
+  },
+  "Contagion": {
+    "flags": {
+      "infectionAtkDebuff": 1
+    }
+  },
+  "Mutagen": {
+    "flags": {
+      "growPerTurn": true,
+      "randomMutation": true
+    }
+  },
+  "Incubator": {
+    "flags": {
+      "gestationGrowth": true
+    }
+  },
+  "Pandemic": {
+    "flags": {
+      "aoeTickDmg": true,
+      "doubleInfectionTick": true,
+      "autoSpreadInfection": true
+    }
+  },
+  "Viral Storm": {
+    "deathEffect": {
+      "kwData": "Infected enemies take stacks × 2 instant damage"
+    },
+    "flags": {
+      "deathInfectionBurst": 2
+    }
+  },
+  "Necrosis": {
+    "flags": {
+      "onHitReduceMaxHp": 2
+    }
+  },
+  "Bio-Forge": {
+    "flags": {}
+  },
+  "Outbreak Prime": {
+    "flags": {
+      "innateStart": "Superspreader: every Virus applies 1 Infection to ALL enemies",
+      "virusMassInfect": true
+    }
+  },
+  "Apex Strain": {
+    "flags": {
+      "onKillGainHighestStat": true,
+      "onKillGainInnate": true
+    }
+  },
+  "Patient Zero": {
+    "flags": {
+      "immortalWhileInfected": true
+    }
+  },
+  "Legion Virus": {
+    "flags": {
+      "onHitInfect": true,
+      "spreadInfectionOnAttack": true,
+      "dmgPerTotalInfection": 1
+    }
+  },
+  "Extinction Event": {
+    "deathEffect": {
+      "kwData": "ALL enemies gain Infection stacks = ATK, double existing stacks"
+    },
+    "flags": {
+      "deathMassInfect": true,
+      "deathInfectStacks": 2
+    },
+    "innate": "Doomsday Pathogen — on death, ALL enemies receive 2 Infection stacks"
+  },
+  "Plague Lord": {
+    "flags": {
+      "doubleVirusDeath": true,
+      "healFromInfection": true
+    }
+  },
+  "Omega Strain": {
+    "flags": {
+      "infectionTickDmg": true,
+      "infectionMultiplier": 1.5
+    },
+    "innate": "Terminal Infection — Infection stacks deal 50% more damage per tick"
+  },
+  "Patient Infinity": {
+    "flags": {
+      "reviveCount": 1,
+      "reviveHalfHp": false,
+      "reviveAtkBoost": 1
+    },
+    "innate": "Endless Mutation — on death, revive once at 1 HP with base stats"
+  },
+  "Flicker": {
+    "flags": {
+      "dodgeChance": 0.35,
+      "dodgeAtkGain": 3
+    },
+    "innate": "Phase Shift — 35% dodge chance. Each dodge grants +3 ATK"
+  },
+  "Phase Wisp": {
+    "flags": {
+      "stealthLeft": 1,
+      "firstAtkMultiplier": 3,
+      "rePhaseDelay": 2
+    }
+  },
+  "Echo Shade": {
+    "deathEffect": {
+      "kwData": "Leave Ghost with 1 HP that repeats last action"
+    },
+    "flags": {
+      "deathGhost": true,
+      "ghostPersistTurns": 99
+    }
+  },
+  "Mist Walker": {
+    "flags": {
+      "missChance": 0.15,
+      "missChanceStacks": true
+    }
+  },
+  "Phase Knight": {
+    "flags": {
+      "alternatingDodge": true
+    }
+  },
+  "Blink Striker": {
+    "flags": {
+      "targetBackline": true,
+      "blinkOnKill": true,
+      "cantBeCountered": true
+    }
+  },
+  "Mirror Ghost": {
+    "flags": {
+      "innateStart": "Doppelganger: ghost copy of strongest enemy (60% stats, 4 attacks)",
+      "copyStrongestEnemy": true,
+      "copyStatRatio": 0.6,
+      "copyAttackLimit": 4
+    },
+    "innate": "Doppelganger — ghost copy of strongest enemy (60% stats, lasts 4 attacks)"
+  },
+  "Void Step": {
+    "deathEffect": {
+      "kwData": "Swap 2 enemy positions + stun both for 2 attacks"
+    },
+    "flags": {
+      "deathSwapEnemies": 2,
+      "deathStunSwapped": 2
+    }
+  },
+  "Specter": {
+    "flags": {
+      "immuneToEffects": true
+    }
+  },
+  "Phase Assassin": {
+    "flags": {
+      "markHighestAtk": true,
+      "phasedUntilMark": true,
+      "firstAtkMultiplier": 2,
+      "onKillStealth": true,
+      "reMarkOnKill": true
+    }
+  },
+  "Rift Walker": {
+    "flags": {
+      "swapAfterAttack": true,
+      "swapAllyAtkBonus": 2
+    }
+  },
+  "Soul Echo": {
+    "deathEffect": {
+      "kwData": "Become 5-turn Ghost dealing ATK as true damage"
+    },
+    "flags": {
+      "deathGhost": true,
+      "ghostPersistTurns": 5,
+      "ghostTrueDmg": true
+    }
+  },
+  "Dimension Ripper": {
+    "flags": {
+      "splashOneRandom": true,
+      "riftPerAttack": true,
+      "riftDmgPerTurn": 1
+    }
+  },
+  "Phase Lord": {
+    "flags": {
+      "innateStart": "Phantom Veil: all Phantoms gain 25% dodge",
+      "teamDodgeBonus": 0.25,
+      "atkPerTeamDodge": 1
+    }
+  },
+  "Void Dancer": {
+    "flags": {
+      "alternatingUntargetable": true,
+      "trueDmgWhileUntargetable": true
+    }
+  },
+  "Ascendant Shade": {
+    "flags": {
+      "onKillGainVictimAtk": true,
+      "onKillBecomeVictim": true
+    }
+  },
+  "Reality Tear": {
+    "flags": {
+      "aoeEvery3": false,
+      "aoeEvery4": true,
+      "aoeStunAll": 1
+    }
+  },
+  "Null Entity": {
+    "flags": {
+      "immune": true
+    }
+  },
+  "Event Horizon": {
+    "flags": {
+      "innateStart": "Gravity Well: pull enemies 1 position, halve ATK of adjacent enemies",
+      "pullEnemies": 1,
+      "halveAdjacentEnemyAtk": true
+    }
+  },
+  "The Unseen": {
+    "flags": {
+      "stealthLeft": 999,
+      "targetHighestAtk": true,
+      "onKillAtkGain": 3,
+      "onKillHpGain": 3,
+      "permanentKillGain": true,
+      "onlyAoECanHit": true
+    }
+  },
+  "Brick Golem": {
+    "flags": {
+      "flatDmgReduce": 0,
+      "damageCap": 3
+    }
+  },
+  "Pillar Shard": {
+    "deathEffect": {
+      "kwData": "Deal 1 damage to all enemies per 5 max HP"
+    },
+    "flags": {
+      "deathDmgPerMaxHp": 5
+    }
+  },
+  "Stone Sentinel": {
+    "flags": {
+      "flatAbsorb": 0,
+      "petrifyFirstAttacker": true
+    }
+  },
+  "Rune Carver": {
+    "flags": {
+      "innateStart": "Inscription: highest-HP ally reflects 2 damage per hit taken",
+      "inscribeReflect": 2
+    }
+  },
+  "Fossil Core": {
+    "deathEffect": {
+      "kwData": "Killer gets -3 ATK permanently + random Construct gains max HP"
+    },
+    "flags": {
+      "deathCurseKiller": 3,
+      "deathTransferHpToConstruct": true
+    }
+  },
+  "Monolith": {
+    "flags": {
+      "innateStart": "Ancient Power: all allies gain Shield = 10% of Monolith max HP",
+      "shieldFromMaxHp": 0.1,
+      "growPerTurn": true,
+      "growHpPerRound": 2
+    }
+  },
+  "Architect": {
+    "flags": {}
+  },
+  "Siege Tower": {
+    "autoKeywords": [
+      {
+        "kw": "cleave"
+      }
+    ],
+    "flags": {
+      "doubleDmgToShielded": true
+    }
+  },
+  "Relic Guard": {
+    "flags": {
+      "innateStart": "Ancient Ward: each ally survives first lethal at 1 HP",
+      "teamLethalProtection": true,
+      "hpCostPerSave": 2
+    }
+  },
+  "Titan Wall": {
+    "flags": {
+      "globalAbsorb": 0.3
+    }
+  },
+  "War Totem": {
+    "flags": {
+      "auraAtk": true,
+      "auraAtkFromHpPercent": 0.1
+    }
+  },
+  "Siege Ram": {
+    "flags": {
+      "firstAtkMultiplier": 1,
+      "firstAtkUsesHp": true
+    }
+  },
+  "Eternal Engine": {
+    "flags": {
+      "selfHealPerTurn": 3,
+      "healLowestPerTurn": 3
+    }
+  },
+  "World Shaper": {
+    "flags": {
+      "innateStart": "Terraform: all allies gain +HP = position × 2",
+      "hpByPosition": 2
+    }
+  },
+  "Living Fortress": {
+    "flags": {
+      "antiOneShot": 0.25,
+      "deathHpGift": 0.25
+    }
+  },
+  "Genesis Monument": {
+    "flags": {
+      "immortalWhileConstructAlive": true
+    },
+    "deathEffect": {
+      "kwData": "ALL allies gain +3/+3 and full heal"
+    }
+  },
+  "Merc For Hire": {
+    "flags": {
+      "wildcard": true
+    },
+    "autoKeywords": [
+      {
+        "kw": "adapt"
+      }
+    ]
+  },
+  "Junk Dealer": {
+    "flags": {
+      "bonusSellGold": 1
+    }
+  },
+  "Stray Cat": {
+    "flags": {
+      "nineLives": 2,
+      "nineLivesAtkGain": 2
+    }
+  },
+  "Scavenger": {
+    "flags": {}
+  },
+  "Street Doc": {
+    "flags": {
+      "innateStart": "Back-Alley Surgery: fully heal most damaged ally + remove debuffs",
+      "healMostDamaged": true,
+      "cleanseDebuffs": true
+    }
+  },
+  "Arms Dealer": {
+    "flags": {}
+  },
+  "Alley Rat": {
+    "flags": {
+      "onHitStealStats": true,
+      "stealRandomBuff": true
+    }
+  },
+  "Barricade": {
+    "flags": {
+      "innateStart": "Roadblock: 2 lowest-position enemies skip first 2 turns",
+      "delayEnemies": 2,
+      "delayTurns": 2
+    }
+  },
+  "Bounty Hunter": {
+    "flags": {
+      "innateStart": "Bounty: mark highest-tier enemy",
+      "markHighestTier": true,
+      "bountyAtkReward": 5,
+      "bountyGoldReward": 2,
+      "permanentKillGain": true
+    }
+  },
+  "Fixer": {
+    "flags": {}
+  },
+  "Smuggler": {
+    "flags": {}
+  },
+  "Enforcer": {
+    "flags": {
+      "bonusDmgIfKw": true,
+      "bonusDmgNoKw": 4,
+      "bonusDmg1Kw": 2
+    }
+  },
+  "Black Market": {
+    "flags": {}
+  },
+  "War Profiteer": {
+    "flags": {
+      "goldSpendAtk": 0,
+      "globalBuySellAtkGain": 1
+    }
+  },
+  "Lone Wolf": {
+    "flags": {
+      "soloTriple": true,
+      "soloQuadruple": true
+    }
+  },
+  "Rogue AI": {
+    "flags": {
+      "innateStart": "Adaptive Intelligence: gain best counter-innate vs enemy board",
+      "copyStrongestInnate": true,
+      "adaptiveCounter": true
+    }
+  },
+  "Doomsday Bot": {
+    "deathEffect": {
+      "kwData": "Enemy PLAYER takes direct damage = ATK / 2"
+    },
+    "flags": {
+      "deathPlayerDmg": true,
+      "playerDmgFromAtk": 0.5
+    }
+  },
+  "Merc Captain": {
+    "flags": {
+      "innateStart": "Full Roster Bonus: all allies gain +1/+1 per unique faction on board",
+      "factionDiversityBonus": 1
+    },
+    "innate": "Full Roster Bonus — for each UNIQUE faction on your board, all allies gain +1/+1"
+  },
+  "The Architect": {
+    "flags": {
+      "innateStart": "Grand Design: activate all combat-start innates one additional time",
+      "doubleCombatStartInnates": true
+    }
+  },
+  "Chaos Engine": {
+    "flags": {
+      "chaosPerTurn": true
+    }
+  },
+  "Scrap Bot": {
+    "flags": {
+      "synthScale": true,
+      "synthScaleMultiplier": 1,
+      "growPerTurn": true
+    },
+    "innate": "Gains +1/+1 each combat turn (Synth scaling)"
+  },
+  "Wire Rat": {
+    "flags": {
+      "onHitGainAtk": 1
+    },
+    "innate": "On buy: +1 ATK to a random Synth ally. In combat: gains +1 ATK on each hit"
+  },
+  "Chip Miner": {
+    "flags": {
+      "growPerTurn": true
+    },
+    "innate": "On buy: gain 1g. Every 3rd Synth = 3g bonus. In combat: +1/+1 per turn"
+  },
+  "Sentinel": {
+    "flags": {
+      "absorbFirstEnemyInnate": true
+    }
+  },
+  "Glitch Imp": {
+    "flags": {
+      "onHitCorruptInnate": true
+    }
+  },
+  "Phreaker": {
+    "flags": {}
+  },
+  "Foundation": {
+    "flags": {
+      "constructHpPerRound": 1
+    }
+  },
+  "Iron Seed": {
+    "flags": {}
+  },
+  "Growth Engine": {
+    "flags": {
+      "growPerTurn": true,
+      "constructScaleRate": true,
+      "lockedInPlace": true
+    }
+  },
+  "The Colossus": {
+    "flags": {
+      "constructBonus": true,
+      "constructScaleRate": true,
+      "stompEvery": 5,
+      "stompDmgFromHp": 0.25
+    }
+  }
+}

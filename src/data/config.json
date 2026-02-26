@@ -1,0 +1,61 @@
+{
+  "maxBoardSize": 7,
+  "maxBench": 3,
+  "startingHealth": 45,
+  "startingGold": 5,
+  "rerollCost": 1,
+  "goldPerRoundBase": 5,
+
+  "poolCopies": { "1": 24, "2": 18, "3": 14, "4": 10, "5": 7, "6": 4, "7": 1 },
+
+  "shopSizeByTier": { "1": 3, "2": 4, "3": 4, "4": 5, "5": 5, "6": 6 },
+  "tierUpCost":     { "1": 5, "2": 7, "3": 8, "4": 9, "5": 11 },
+
+  "timerByRound": {
+    "early":   { "maxRound": 3,  "seconds": 50 },
+    "mid":     { "maxRound": 7,  "seconds": 70 },
+    "late":    { "maxRound": 11, "seconds": 80 },
+    "endgame": { "maxRound": 99, "seconds": 90 }
+  },
+
+  "chipTiersByRound": {
+    "1":  1,
+    "4":  2,
+    "8":  3,
+    "12": 4
+  },
+
+  "chipCountByRound": {
+    "1":  1,
+    "4":  2,
+    "8":  3,
+    "12": 3
+  },
+
+  "comboPairs": [
+    ["synth", "drone"], ["virus", "hacker"], ["phantom", "psionic"],
+    ["construct", "augmented"], ["augmented", "synth"], ["phantom", "drone"],
+    ["hacker", "psionic"], ["virus", "construct"], ["synth", "hacker"],
+    ["drone", "augmented"], ["psionic", "virus"], ["construct", "phantom"],
+    ["augmented", "hacker"], ["drone", "virus"], ["synth", "construct"]
+  ],
+
+  "factionList": ["synth", "hacker", "virus", "phantom", "augmented", "drone", "psionic", "construct", "neutral"],
+  "modList": ["amp", "shield", "thorns", "overclock", "vamp", "swift", "nanoarmor", "recursive"],
+
+  "enemyNames": [
+    "Neon Viper", "Crimson Byte", "Shadow Protocol", "Data Phantom", "Chrome Jackal",
+    "Null Pointer", "Plasma Ghost", "Cipher Lord", "Binary Wraith", "Quantum Spike",
+    "Flux Demon", "Static Reaper", "Void Crawler", "Echo Prime", "Rogue Signal"
+  ],
+
+  "shopkeeperLines": {
+    "idle":    ["Tick tock, circuits... timer's running.", "See anything you like? I don't judge.", "Full refunds on units. Chips? Not so much.", "CONSTRUCT scaling got nerfed. Cap's at +10 now. Just sayin'.", "You gonna buy something or just stand there leaking data?", "I've seen things you wouldn't believe. Mostly bad team comps.", "Another round, another chance to disappoint me.", "Timer's shrinking. Better move fast."],
+    "buy":     ["Smart choice. Or terrible. We'll find out.", "Bolted and loaded.", "Another one for the board."],
+    "sell":    ["Back to the scrap heap.", "I'll give you a gold for that. Best I can do.", "One bot's trash..."],
+    "reroll":  ["Let me dig through the pile...", "Fresh stock, same junk.", "Shuffling the deck..."],
+    "tierUp":  ["Moving up in the world!", "Bigger tier, bigger problems.", "Now we're cooking with plasma."],
+    "frozen":  ["I'll keep these warm for ya.", "Frozen solid.", "On ice. Got it."],
+    "broke":   ["Come back when you've got gold, pal.", "Your wallet says no.", "Can't buy dreams with empty pockets."]
+  }
+}

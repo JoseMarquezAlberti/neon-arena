@@ -1,0 +1,8 @@
+[
+  { "id": "steal",         "name": "Neural Hijack",   "icon": "NH", "color": "#ff2266", "tier": 2, "desc": "Steal any non-golden unit from an opponent's board.", "pveDesc": "Copy the strongest enemy unit from your last combat." },
+  { "id": "sabotage",      "name": "System Crash",    "icon": "SC", "color": "#ff4444", "tier": 2, "desc": "Permanently halve one enemy unit's stats.",           "pveDesc": "Next combat: enemy's strongest unit starts at half stats." },
+  { "id": "overclock",     "name": "Surge Protocol",  "icon": "SP", "color": "#ffcc00", "tier": 1, "desc": "Double one of your unit's current stats.",            "pveDesc": "Double one of your unit's current stats." },
+  { "id": "duplicate",     "name": "Clone Protocol",  "icon": "CP", "color": "#00ff88", "tier": 1, "desc": "Create an exact copy of any unit you own.",           "pveDesc": "Create an exact copy of any unit you own." },
+  { "id": "glitch_market", "name": "Black Ice",       "icon": "BI", "color": "#cc44ff", "tier": 2, "desc": "Open a premium secret shop (min T5, T7 exclusive at T5+). 2x gold cost.", "pveDesc": "Open a premium secret shop (min T5, T7 exclusive at T5+). 2x gold cost." },
+  { "id": "time_hack",     "name": "Chronobreak",     "icon": "CB", "color": "#00bbff", "tier": 1, "desc": "Reset timer to 45s + 3 free rerolls.",                "pveDesc": "Reset timer to 45s + 3 free rerolls." }
+]

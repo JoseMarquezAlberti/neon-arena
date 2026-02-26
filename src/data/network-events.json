@@ -1,0 +1,12 @@
+[
+  { "id": "firewall_breach", "name": "Firewall Breach", "icon": "🔓", "desc": "All shields and Hardshell are removed this round.",       "color": "#ff4444" },
+  { "id": "black_market",    "name": "Black Market",    "icon": "🎭", "desc": "Shop offers units 1 tier higher than normal.",            "color": "#aa66ff" },
+  { "id": "surge_pricing",   "name": "Surge Pricing",   "icon": "💸", "desc": "Rerolls cost 0 this round.",                              "color": "#00f0ff" },
+  { "id": "power_outage",    "name": "Power Outage",    "icon": "🔌", "desc": "All units have -2 ATK this round.",                       "color": "#888888" },
+  { "id": "overclock_event", "name": "Overclock",       "icon": "⚡", "desc": "All units attack twice this round.",                      "color": "#ffcc00" },
+  { "id": "gold_rush",       "name": "Gold Rush",       "icon": "💰", "desc": "+5 bonus gold this round!",                               "color": "#ffcc00" },
+  { "id": "static_field",    "name": "Static Field",    "icon": "🚫", "desc": "No keywords activate this round (pure stats).",           "color": "#888888" },
+  { "id": "arms_race",       "name": "Arms Race",       "icon": "💪", "desc": "All units gain +3/+3 this round.",                        "color": "#ff6600" },
+  { "id": "quantum_flux",    "name": "Quantum Flux",    "icon": "🌀", "desc": "All units randomly swap positions before combat.",        "color": "#aa66ff" },
+  { "id": "data_surge",      "name": "Data Surge",      "icon": "📈", "desc": "+2 to shop size this round.",                             "color": "#66ff00" }
+]

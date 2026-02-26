@@ -1,0 +1,26 @@
+[
+  { "id": "atk2",        "name": "+2 ATK",       "cost": 2, "tier": 1, "color": "#44ff66", "icon": "⚔",   "desc": "+2 ATK to a unit",                        "effect": { "type": "statBuff", "atk": 2 } },
+  { "id": "hp3",         "name": "+3 HP",        "cost": 2, "tier": 1, "color": "#44ff66", "icon": "❤",   "desc": "+3 HP to a unit",                         "effect": { "type": "statBuff", "hp": 3 } },
+  { "id": "shield3",     "name": "+3 Shield",    "cost": 2, "tier": 1, "color": "#4488ff", "icon": "🛡",  "desc": "+3 Shield to a unit",                     "effect": { "type": "statBuff", "shield": 3 } },
+  { "id": "regen_g",     "name": "Regen",        "cost": 2, "tier": 1, "color": "#44ff66", "icon": "💚",  "desc": "Heal 2 HP per attack",                    "effect": { "type": "addKeyword", "keyword": "regen", "kwData": "Heal 2 HP per attack" } },
+
+  { "id": "firewall_g",  "name": "Firewall",     "cost": 4, "tier": 2, "color": "#ff8844", "icon": "🔥",  "desc": "Must be attacked first",                  "effect": { "type": "addKeyword", "keyword": "firewall", "kwData": "Must be targeted first" } },
+  { "id": "stealth_g",   "name": "Stealth",      "cost": 4, "tier": 2, "color": "#aa44ff", "icon": "👁",  "desc": "Untargetable for 2 attacks",              "effect": { "type": "addKeyword", "keyword": "stealth", "kwData": "Cannot be targeted for 2 attacks" } },
+  { "id": "sniper_g",    "name": "Sniper",       "cost": 4, "tier": 2, "color": "#ff4444", "icon": "🎯",  "desc": "Bypass frontline, hit backline",          "effect": { "type": "addKeyword", "keyword": "sniper", "kwData": "Bypass frontline, hit backline" } },
+  { "id": "cleave_g",    "name": "Cleave",       "cost": 4, "tier": 2, "color": "#ff6644", "icon": "🔪",  "desc": "50% ATK to adjacent enemies",             "effect": { "type": "addKeyword", "keyword": "cleave", "kwData": "50% ATK to adjacent enemies" } },
+  { "id": "taunt_g",     "name": "Taunt",        "cost": 4, "tier": 2, "color": "#ff8844", "icon": "🛡️", "desc": "Force enemies to target this unit",       "effect": { "type": "addKeyword", "keyword": "taunt", "kwData": "Must be attacked first" } },
+  { "id": "atk4",        "name": "+4 ATK",       "cost": 3, "tier": 2, "color": "#4488ff", "icon": "⚔⚔", "desc": "+4 ATK to a unit",                        "effect": { "type": "statBuff", "atk": 4 } },
+  { "id": "hp6",         "name": "+6 HP",        "cost": 3, "tier": 2, "color": "#4488ff", "icon": "❤❤", "desc": "+6 HP to a unit",                         "effect": { "type": "statBuff", "hp": 6 } },
+
+  { "id": "splash_g",    "name": "Splash",       "cost": 6, "tier": 3, "color": "#ff2266", "icon": "💥",  "desc": "Deal 30% ATK to ALL enemies",             "effect": { "type": "addKeyword", "keyword": "splash", "kwData": "30% ATK to all enemies" } },
+  { "id": "execute_g",   "name": "Execute",      "cost": 6, "tier": 3, "color": "#ff0044", "icon": "☠",   "desc": "Instant kill enemies below 25% HP",       "effect": { "type": "addKeyword", "keyword": "execute", "kwData": "Kill target below 25% HP" } },
+  { "id": "hardshell_g", "name": "Hardshell",    "cost": 6, "tier": 3, "color": "#88aacc", "icon": "🐢",  "desc": "Take 30% less damage",                    "effect": { "type": "addKeyword", "keyword": "hardshell", "kwData": "Take 30% less damage" } },
+  { "id": "buff5",       "name": "+5/+5",        "cost": 5, "tier": 3, "color": "#ffcc00", "icon": "★",   "desc": "+5 ATK and +5 HP to a unit",              "effect": { "type": "statBuff", "atk": 5, "hp": 5 } },
+  { "id": "shield8",     "name": "+8 Shield",    "cost": 5, "tier": 3, "color": "#ffcc00", "icon": "🛡🛡", "desc": "+8 Shield to a unit",                    "effect": { "type": "statBuff", "shield": 8 } },
+
+  { "id": "malware_g",   "name": "Malware",      "cost": 8, "tier": 4, "color": "#ff00ff", "icon": "☣",   "desc": "Instant kill on hit (attacker dies too)", "effect": { "type": "addKeyword", "keyword": "malware", "kwData": "Kill target on hit, self-destruct" } },
+  { "id": "link_g",      "name": "Link",         "cost": 8, "tier": 4, "color": "#00f0ff", "icon": "🔗",  "desc": "Buff adjacent allies +2/+2",              "effect": { "type": "addKeyword", "keyword": "link", "kwData": "+2/+2 to neighbors" } },
+  { "id": "initprot_g",  "name": "Init Protocol", "cost": 8, "tier": 4, "color": "#aa66ff", "icon": "⚡",  "desc": "Combat start: +2 ATK to ALL allies",      "effect": { "type": "addKeyword", "keyword": "initprot", "kwData": "+2 ATK to all allies" } },
+  { "id": "deadswitch_g","name": "Deadswitch",   "cost": 8, "tier": 4, "color": "#aa44ff", "icon": "💀",  "desc": "On death: Deal 3 dmg to all enemies",     "effect": { "type": "addKeyword", "keyword": "deadswitch", "kwData": "Deal 3 dmg to all enemies" } },
+  { "id": "buff8",       "name": "+8/+8",        "cost": 7, "tier": 4, "color": "#ffcc00", "icon": "★★",  "desc": "+8 ATK and +8 HP to a unit",              "effect": { "type": "statBuff", "atk": 8, "hp": 8 } }
+]
